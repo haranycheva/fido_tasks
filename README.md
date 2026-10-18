@@ -1,7 +1,8 @@
-Here are task 7 and task 8 solutions
+##Here are task 7 and task 8 solutions
 
 ### Project structure:
 
+```text
 fido_tasks/
 ├── src/
 │   ├── App.java        # main class for program (task 7)
