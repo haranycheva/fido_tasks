@@ -1,18 +1,30 @@
-## Getting Started
+Here are task 7 and task 8 solutions
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Project structure:
 
-## Folder Structure
+fido_tasks/
+├── src/
+│   ├── App.java        # main class for program (task 7)
+│   └── Task.java       # realisation of task 7
+├── task8.sql           # sql for task 8
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### SQL Task (`task8.sql`)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Contains SQL scripts for data queries and manipulation.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**To run:** Open `task8.sql` in your database client (e.g., PostgreSQL, MySQL, SQLite) and execute the queries.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Singly Linked List (`src/`)
+
+Search for two-thirds node in the singly linked list
+
+**To run via Terminal:**
+```bash
+# Compile
+javac -d bin src/*.java
+
+# Run
+java -cp bin App
