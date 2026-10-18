@@ -8,7 +8,7 @@ fido_tasks/
 │   ├── App.java        # main class for program (task 7)
 │   └── Task.java       # realisation of task 7
 ├── task8.sql           # sql for task 8
-
+```
 
 ### SQL Task (`task8.sql`)
 
